@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Outfit", sans-serif;
+  background-color: #FAFAFA;
+  scroll-behavior: smooth;
+}
+
+/* Inputs */
+
+input, textarea, button{
+  font-family: "Outfit", sans-serif;
+}
+
+/* Navegacion */
+.navegacion {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.77) 0%, rgba(0, 0, 0, 0) 100%);
+  /* background-color: black; */
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.navegacion--visible{
+    background-color: black;
+    transition: background-color 0.5s;
+}
+
+.navegacion__logo{
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navegacion__logo p{
+  margin-left: 10px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.navegacion__menu{
+  color: #FFFFFF;
+  width: 600px;
+  display: flex;
+  margin-right: 25px;
+}
+
+.navegacion__menu__boton{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.navegacion__menu__boton:hover{
+  background-color: #FFFFFF;
+  color: #848484;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navegacion__menu__boton:visited{
+  color: #848484;
+}
+
+
+/* Footer */
+.footer{
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__institucion{
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.footer__integrantes{
+  display: flex;
+}
+
+.footer__integrantes__integrante{
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-right: 30px;
+}
