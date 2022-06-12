@@ -46,9 +46,9 @@ input, textarea, button{
 
 .navegacion__menu{
   color: #FFFFFF;
-  width: 600px;
+  width: 50vw;
   display: flex;
-  margin-right: 25px;
+  justify-content: space-between;
 }
 
 .navegacion__menu__boton{
@@ -57,7 +57,7 @@ input, textarea, button{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
+  width: calc(50vw / 5);
   text-align: center;
   transition: all 0.2s;
 }
