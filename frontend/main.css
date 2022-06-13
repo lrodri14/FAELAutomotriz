@@ -13,6 +13,29 @@ input, textarea, button{
   font-family: "Outfit", sans-serif;
 }
 
+/* Controladores */
+.siguiente{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #848484;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.siguiente:first-child{
+  color: #FFFFFF;
+}
+
+.siguiente__blanco{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+
 /* Navegacion */
 .navegacion {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.77) 0%, rgba(0, 0, 0, 0) 100%);
@@ -72,6 +95,11 @@ input, textarea, button{
 .navegacion__menu__boton:visited{
   color: #848484;
 }
+
+.navegacion__menu__boton:hover .iconify{
+  color: #848484;
+}
+
 
 
 /* Footer */
