@@ -100,6 +100,11 @@ input, textarea, button{
   color: #848484;
 }
 
+.navegacion__menu__boton:hover .iconify{
+  color: #848484;
+}
+
+
 
 
 /* Footer */
