@@ -3,7 +3,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Outfit", sans-serif;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   scroll-behavior: smooth;
 }
 
@@ -12,6 +12,29 @@ body {
 input, textarea, button{
   font-family: "Outfit", sans-serif;
 }
+
+/* Controladores */
+.siguiente{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #848484;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.siguiente:first-child{
+  color: #FFFFFF;
+}
+
+.siguiente__blanco{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
 
 /* Navegacion */
 .navegacion {
@@ -70,8 +93,13 @@ input, textarea, button{
 }
 
 .navegacion__menu__boton:visited{
+  color: #FFFFFF;
+}
+
+.navegacion__menu__boton:visited:hover{
   color: #848484;
 }
+
 
 
 /* Footer */
