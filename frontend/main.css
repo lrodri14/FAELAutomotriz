@@ -3,7 +3,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Outfit", sans-serif;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   scroll-behavior: smooth;
 }
 
@@ -93,12 +93,17 @@ input, textarea, button{
 }
 
 .navegacion__menu__boton:visited{
+  color: #FFFFFF;
+}
+
+.navegacion__menu__boton:visited:hover{
   color: #848484;
 }
 
 .navegacion__menu__boton:hover .iconify{
   color: #848484;
 }
+
 
 
 
