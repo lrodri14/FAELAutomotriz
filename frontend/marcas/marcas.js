@@ -11,27 +11,27 @@ const contenido = {
     ferrari : {
         titulo: 'Ferrari',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
-        imagen: '/frontend/static/imgs/marcas/horse.jpg',
+        imagen: '../static/imgs/marcas/horse.jpg',
     },
     lamborghini : {
         titulo: 'Lamborghini',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
-        imagen: '/frontend/static/imgs/marcas/bull.jpg',
+        imagen: '../static/imgs/marcas/bull.jpg',
     },
     mclaren : {
         titulo: 'Mclaren',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
-        imagen: '/frontend/static/imgs/marcas/helmet.jpg',
+        imagen: '../static/imgs/marcas/helmet.jpg',
     },
     bentley : {
         titulo: 'Bentley',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
-        imagen: '/frontend/static/imgs/marcas/bentley.jpg',
+        imagen: '../static/imgs/marcas/bentley.jpg',
     },
     rr : {
         titulo: 'Rolls Royce',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
-        imagen: '/frontend/static/imgs/marcas/ecstacy.jpg',
+        imagen: '../static/imgs/marcas/ecstacy.jpg',
     }
 }
 
