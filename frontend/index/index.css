@@ -1,0 +1,378 @@
+
+/* Video e Imagen */
+
+video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Contenedores */
+.main, .nov, .contacto, .faq{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Controladores */
+.siguiente{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #848484;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.siguiente:first-child{
+  color: #FFFFFF;
+}
+
+.siguiente__blanco{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+
+/* Main */
+.main__modal{
+  height: 275px;
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.main__modal__titulo{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.main__modal__cuerpo{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.main__modal__redireccion{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+.main__estadistica{
+  height: 95px;
+  width: 375px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  color: #FFFFFF;
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__estadistica div{
+  width: 125px;
+  text-align: center;
+}
+
+.main__estadistica p{
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.main__estadistica div:first-child{
+  border-right: 0.2px solid #FFFFFF;
+  padding-right: 10px;
+}
+
+.main__estadistica div:nth-child(3){
+  border-left: 0.2px solid #FFFFFF;
+  padding-left: 10px;
+}
+
+.main__social{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+/* Novedades */
+.nov{
+  display: grid;
+  grid-template-columns: 23% 50% 27%;
+}
+
+.nov__vis__img{
+  width: 100%;
+}
+
+.nov__slider{
+  border-left: 0.5px solid #848484;
+  max-height: 100vh;
+  overflow: auto;
+  border: 1px solid red;
+  scroll-padding-bottom: 100px;
+}
+
+.nov__contenido{
+  display: flex;
+  justify-content: center;
+}
+
+.nov__contenido__historia{
+    width: 75%;
+    margin-top: 90px;
+}
+
+.nov__contenido__historia__titulo, .nov__contenido__historia__cuerpo{
+  color: #848484;
+}
+
+.nov__contenido__historia__titulo{
+  font-size: 22px;
+}
+
+.nov__contenido__historia__cuerpo{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify
+}
+
+.nov__slider__el{
+  color: #848484;
+  text-align: center;
+  height: 240px;
+  padding-top: 10px;
+  border-bottom: 0.5px solid #848484;
+}
+
+.nov__slider__el:first-child{
+  margin-top: 70px;
+  border-top: 0.5px solid #848484;
+}
+
+.nov__slider__el__titulo{
+  font-size: 16px;
+}
+
+.nov__slider__el__preview{
+  font-size: 12px;
+  font-weight: 300;
+  width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.nov__slider__el__img{
+  width: 220px;
+  height: 100px;
+  margin-top: 0px;
+}
+
+/* Contacto */
+
+.contacto{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contacto__form{
+  margin-top: 70px;
+}
+
+.contacto__dec{
+  margin-top: 195px;
+}
+
+.contacto__dec__img{
+    width: 90%;
+    height: 250px;
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+
+.contacto__dec__marcas{
+    margin-top: 10px;
+    width: 90%;
+}
+
+.contacto__dec__marcas img{
+  height: 60px;
+  width: 50px;
+  margin: 0px 20px;
+}
+
+.contacto__dec__marcas img:nth-child(3){
+  height: 100%;
+  width: 150px;
+}
+
+.contacto__dec__marcas img:nth-child(4){
+  height: 100%;
+  width: 120px;
+}
+
+.contacto__form{
+    margin-left: 83px;
+}
+
+.contacto__form__titulo{
+  font-size: 28px;
+  color: #848484;
+}
+
+.contacto__form label{
+  color: #848484;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.contacto__form input{
+    background-color: #C2C2C2;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.contacto__form textarea{
+    width: 500px;
+    background-color: #C2C2C2;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 120px;
+}
+
+.contacto__form button{
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    color: #848484;
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Faq */
+.faq{
+  box-sizing: border-box;
+  padding-top: 100px;
+  text-align: center;
+  color: #848484;
+}
+
+.faq__titulo{
+  font-size: 28px;
+  color: #848484;
+}
+
+.faq__contenido{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.faq__pregunta__contenido{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq__pregunta{
+    border-bottom: 0.5px solid #848484;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.faq__pregunta__titulo{
+    font-size: 18px;
+}
+
+.faq__pregunta__respuesta__contenido{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 25px;
+    display: none;
+    visibility: hidden;
+}
+
+.visible .faq__pregunta__respuesta__contenido{
+  display: block;
+  visibility: visible;
+  transition: visibility 0.5s;
+}
+
+.visible .iconify{
+  transform: rotate(180deg);
+  transition: transform 0.5s;
+}
+
+/* Footer */
+.footer{
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  position: relative;
+  top: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__institucion{
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.footer__integrantes{
+  display: flex;
+}
+
+.footer__integrantes__integrante{
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-right: 30px;
+}
