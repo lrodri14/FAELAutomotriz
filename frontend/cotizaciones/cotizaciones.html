@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./cotizaciones.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+    <title>Cotizaciones</title>
+</head>
+<body>
+    <!-- Navegacion -->
+    <div class="navegacion">
+      <!-- Logo Navegacion -->
+      <div class="navegacion__logo" onclick="window.location.href='../index/index.html'">
+        <span class="iconify" data-icon="icon-park-solid:diamond-ring" style="color: white;" data-width="30" data-height="30"></span>
+        <p>FAEL Automotriz</p>
+      </div>
+      <!-- Menu Navegacion -->
+      <div class="navegacion__menu">
+        <!-- Botones del Menu -->
+        <a class="navegacion__menu__boton" href="../marcas/marcas.html">Marcas</a>
+        <a class="navegacion__menu__boton" href="../nosotros/nosotros.html">Nosotros</a>
+        <a class="navegacion__menu__boton">Usados</a>
+        <a class="navegacion__menu__boton" href="../cotizaciones/cotizaciones.html">Cotizaciones</a>
+        <a class="navegacion__menu__boton">Mi Perfil</a>
+      </div>
+    </div>
+
+    <div class="contenido">
+        <div class="contenido__formulario">
+            <h1 class="contenido__formulario__titulo">Solicitar Cotizacion</h1>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" required>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" type="text" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+                <label for="marca">Marca</label>
+                <select name="marca" id="marca" required>
+                    <option value="ferrari" selected>Ferrari</option>
+                    <option value="lamborghini">Lamborghini</option>
+                    <option value="mclaren">Mclaren</option>
+                    <option value="bentley">Bentley</option>
+                    <option value="rolls-royce">Rolls Royce</option>
+                </select>
+                <label for="modelo">Modelo</label>
+                <select name="marca" id="modelo" required>
+                    <option value="f8" selected>F8 Tributo</option>
+                    <option value="488">488 Pista</option>
+                    <option value="portofino">Portofino</option>
+                </select>
+                <button type="submit">Solicitar Cotizacion</button>
+            </form>
+        </div>
+        <div class="contenido__vis">
+            <h1 class="contenido__vis__titulo">Ferrari F8 Tributo</h1>
+            <div class="contenido__vis__main">
+                <span class="iconify left" data-icon="bi:arrow-left-circle-fill">Previo</span>
+                <img src="../static/imgs/cotizaciones/f8-esquina.png" alt="" class="contenido__vis__main__img">
+                <span class="iconify right" data-icon="bi:arrow-right-circle-fill">Siguiente</span>
+            </div>
+            <div class="contenido__vis__nav">
+                <div class="1 contenido__vis__nav__item contenido__vis__nav__item__img--selected">
+                    <img src="../static/imgs/cotizaciones/f8-esquina.png" alt="" class="contenido__vis__nav__item__img">
+                </div>
+                <div class="2 contenido__vis__nav__item">
+                    <img src="../static/imgs/cotizaciones/f8-esquina-trasera.png" alt="" class="contenido__vis__nav__item__img">
+                </div>
+                <div class="3 contenido__vis__nav__item">
+                    <img src="../static/imgs/cotizaciones/f8-lado.png" alt="" class="contenido__vis__nav__item__img">
+                </div>
+                <div class="4 contenido__vis__nav__item">
+                    <img src="../static/imgs/cotizaciones/f8-frente.png" alt="" class="contenido__vis__nav__item__img">
+                </div>
+                <div class="5 contenido__vis__nav__item">
+                    <img src="../static/imgs/cotizaciones/f8-trasera.png" alt="" class="contenido__vis__nav__item__img">
+                </div>
+            </div>
+            <p class="contenido__vis__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores assumenda, corporis cum delectus dignissimos dolor doloremque eos fugiat hic ipsum necessitatibus nobis optio qui, quibusdam similique soluta veritatis vitae!</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="footer__institucion">Universidad Tecnologica de Honduras</p>
+        <div class="footer__integrantes">
+            <p class="footer__integrantes__integrante">Armando Lozando</p>
+            <p class="footer__integrantes__integrante">Fabiana Valladares</p>
+            <p class="footer__integrantes__integrante">Edgardo Peña</p>
+            <p class="footer__integrantes__integrante">Luis Rodriguez</p>
+        </div>
+    </div>
+    <script src="../cotizaciones/cotizaciones.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>

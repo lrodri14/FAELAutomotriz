@@ -29,9 +29,60 @@
 }
 
 .contenido__info{
-    margin-top: 20px;
     width: 85%;
     margin-left: 7.5%;
+}
+
+.contenido__titulo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido__titulo a{
+    text-decoration: none;
+}
+
+.ver-vehiculos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido__info__vehiculos{
+    opacity: 0;
+}
+
+.contenido__info__vehiculos--visible{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+
+.ver-vehiculos button{
+    border: none;
+    background-color: transparent;
+    border: 2px solid #848484;
+    color: #848484;
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.ver-vehiculos .iconify{
+    width: 50px;
+    height: 25px;
+    color: #848484;
+}
+
+.ver-vehiculos button:hover{
+    background-color: #848484;
+    color: #FFFFFF;
 }
 
 .contenido__info__titulo{
@@ -60,7 +111,7 @@
     display: grid;
     grid-template-columns: calc(100%/3 - 20px) calc(100%/3 - 20px) calc(100%/3 - 20px);
     grid-gap: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     animation: aparicion 1s linear;
 }
 
