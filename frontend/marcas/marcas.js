@@ -14,31 +14,31 @@ const contenido = {
         titulo: 'Ferrari',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/horse.jpg',
-        link: '../marcas/ferrari.html'
+        link: '../marcas/ferrari/ferrari.html'
     },
     lamborghini : {
         titulo: 'Lamborghini',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/bull.jpg',
-        link: '../marcas/lamborghini.html'
+        link: '../marcas/lamborghini/lamborghini.html'
     },
     mclaren : {
         titulo: 'Mclaren',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/helmet.jpg',
-        link: '../marcas/mclaren.html'
+        link: '../marcas/mclaren/mclaren.html'
     },
     bentley : {
         titulo: 'Bentley',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/bentley.jpg',
-        link: '../marcas/bentley.html'
+        link: '../marcas/bentley/bentley.html'
     },
     rr : {
         titulo: 'Rolls Royce',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/ecstacy.jpg',
-        link: '../marcas/rolls-royce.html'
+        link: '../marcas/rolls-royce/rolls-royce.html'
     }
 }
 
