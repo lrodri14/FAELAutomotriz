@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Utilizar mismas ojas de estilos -->
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="../vista-marca.css">
+    <!-- Utilizar mismo CDN para fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Cambiar Titulo A Marca Electa -->
+    <title>Ferrari</title>
+</head>
+<body>
+
+    <!-- Utilizar mismo menu de navegacion -->
+    <!-- Navegacion -->
+    <div class="navegacion">
+      <!-- Logo Navegacion -->
+      <div class="navegacion__logo" onclick="window.location.href='../../index/index.html'">
+        <span class="iconify" data-icon="icon-park-solid:diamond-ring" style="color: white;" data-width="30" data-height="30"></span>
+        <p>FAEL Automotriz</p>
+      </div>
+      <!-- Menu Navegacion -->
+      <div class="navegacion__menu">
+        <!-- Botones del Menu -->
+        <a class="navegacion__menu__boton" href="../marcas.html">Marcas</a>
+        <a class="navegacion__menu__boton" href="../../nosotros/nosotros.html">Nosotros</a>
+        <a class="navegacion__menu__boton">Usados</a>
+        <a class="navegacion__menu__boton" href="../../cotizaciones/cotizaciones.html">Cotizaciones</a>
+        <a class="navegacion__menu__boton">Mi Perfil</a>
+      </div>
+    </div>
+
+    <!-- Crear Banner, y asignar imagen para la marca seleccionada -->
+    <!-- Utilizar titulo de preferencia -->
+    <!-- Escribir un mensaje de preferencia -->
+    <div class="banner">
+        <!-- Imagen -->
+        <img src="../../static/imgs/marcas/presentacion/ferrari/ferrari-banner.jpg" alt="" class="banner__fondo">
+        <!-- Titulo -->
+        <p class="banner__titulo">Un Nuevo Estilo de Vida</p>
+        <!-- Mensaje -->
+        <p class="banner__mensaje">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab aliquam asperiores at
+                                   corporis culpa cum dignissimos eos illum iste iure maxime, molestiae numquam officia
+                                   praesentium rem repellat repudiandae voluptatem. corporis culpa cum dignissimos eos
+                                   illum iste iure maxime</p>
+        <div class="banner__gradiente"></div>
+    </div>
+
+    <!-- Cambiar logo al de la marca seleccionada -->
+    <div class="encabezado">
+        <h3 class="encabezado__titulo">Nuestra Gama</h3>
+        <!-- Logo -->
+        <img src="../../static/imgs/marcas/presentacion/ferrari/ferrari-logo.png" alt="" class="encabezado__logo">
+    </div>
+
+    <!-- Asignar Tres de los carros de la marca seleccion y asignar especificaciones de preferencia -->
+    <!-- Asignar Imagen -->
+    <!-- Asignar Modelo -->
+    <!-- Asignar Precio -->
+    <!-- Asignar Especificaciones -->
+    <!-- Asignar Unidades Disponibles -->
+    <div class="autos">
+
+        <!-- Carro #1 -->
+        <div class="autos__auto ferrari f8">
+            <!-- Imagen -->
+            <img src="../../static/imgs/vehiculos/ferrari/f81.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Ferrari F8 Tributo</p>
+                <p class="autos__auto__titulo__precio">$320,000</p>
+            </div>
+
+            <!-- Especificaciones -->
+           <div class="autos__auto__specs">
+                <div class="autos__auto__specs__ace">
+                    <span class="iconify" data-icon="ic:outline-access-time-filled"></span>
+                    <p>2.8s 0-100</p>
+                </div>
+                <div class="autos__auto__specs__top">
+                    <span class="iconify" data-icon="material-symbols:speed"></span>
+                    <p>360 KM/H</p>
+                </div>
+                <div class="autos__auto__specs__torque">
+                    <span class="iconify" data-icon="mdi:arm-flex"></span>
+                    <p>700 N・M</p>
+                </div>
+            </div>
+            <!-- Unidades Disponibles -->
+            <p class="autos__auto__disponibles">5 Unidades Disponibles</p>
+        </div>
+
+        <!-- Carro #2 -->
+        <div class="autos__auto ferrari 488">
+            <!-- Imagen -->
+            <img src="../../static/imgs/vehiculos/ferrari/4882.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Ferrari 488</p>
+                <p class="autos__auto__titulo__precio">$250,000</p>
+            </div>
+
+            <!-- Especificaciones -->
+           <div class="autos__auto__specs">
+                <div class="autos__auto__specs__ace">
+                    <span class="iconify" data-icon="ic:outline-access-time-filled"></span>
+                    <p>2.8s 0-100</p>
+                </div>
+                <div class="autos__auto__specs__top">
+                    <span class="iconify" data-icon="material-symbols:speed"></span>
+                    <p>360 KM/H</p>
+                </div>
+                <div class="autos__auto__specs__torque">
+                    <span class="iconify" data-icon="mdi:arm-flex"></span>
+                    <p>700 N・M</p>
+                </div>
+            </div>
+            <!-- Unidades Disponibles -->
+            <p class="autos__auto__disponibles">3 Unidades Disponibles</p>
+        </div>
+
+        <!-- Carro #3 -->
+        <div class="autos__auto ferrari portofino">
+            <!-- Imagen -->
+            <img src="../../static/imgs/vehiculos/ferrari/portofino2.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Ferrari Portofino</p>
+                <p class="autos__auto__titulo__precio">$170,000</p>
+            </div>
+
+            <!-- Especificaciones -->
+           <div class="autos__auto__specs">
+                <div class="autos__auto__specs__ace">
+                    <span class="iconify" data-icon="ic:outline-access-time-filled"></span>
+                    <p>2.8s 0-100</p>
+                </div>
+                <div class="autos__auto__specs__top">
+                    <span class="iconify" data-icon="material-symbols:speed"></span>
+                    <p>360 KM/H</p>
+                </div>
+                <div class="autos__auto__specs__torque">
+                    <span class="iconify" data-icon="mdi:arm-flex"></span>
+                    <p>700 N・M</p>
+                </div>
+            </div>
+            <!-- Unidades Disponibles -->
+            <p class="autos__auto__disponibles">10 Unidades Disponibles</p>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- Agregar modal en este mismo formato -->
+    <!-- Solo copiar y pegar la modal -->
+    <!-- No agregar texto, imagenes o videos, ya que seran agregados programaticamente -->
+    <div class="modal">
+        <div class="modal__contenido">
+            <div class="modal__vis">
+                <video src="" autoplay loop muted class="modal__vis__video">Video</video>
+            </div>
+            <div class="modal__contenido__info">
+                <div class="modal__contenido__info__titulo">
+                    <h2 class="modal__contenido__info__titulo__modelo"></h2>
+                    <img src="" class="modal__contenido__info__titulo__logo" />
+                </div>
+                <p class="modal__contenido__info__mensaje mensaje__primario"></p>
+                <p class="modal__contenido__info__mensaje mensaje__secundario"></p>
+                <div class="modal__contenido__info__specs">
+                   <div class="autos__auto__specs">
+                        <div class="autos__auto__specs__ace">
+                            <span class="iconify" data-icon="ic:outline-access-time-filled"></span>
+                            <p class="aceleracion"></p>
+                        </div>
+                        <div class="autos__auto__specs__top">
+                            <span class="iconify" data-icon="material-symbols:speed"></span>
+                            <p class="top"></p>
+                        </div>
+                        <div class="autos__auto__specs__torque">
+                            <span class="iconify" data-icon="mdi:arm-flex"></span>
+                            <p class="torque"></p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="modal__contenido__info__precio"></h2>
+                <div class="modal__contenido__info__controlador">
+                    <button class="modal__contenido__info__controlador__boton regresar">Regresar</button>
+                    <button class="modal__contenido__info__controlador__boton cotizar">Cotizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Agregar Script de Iconify y vista-marca.js -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="../vista-marca.js"></script>
+
+</body>
+</html>

@@ -4,6 +4,8 @@ const titulo = document.querySelector('.contenido__info__titulo')
 const mensaje = document.querySelector('.contenido__info__mensaje')
 const imagen = document.querySelector('.contenido__vis__img')
 const marcas = document.querySelectorAll('.contenido__info__marcas__marca')
+const link = document.querySelector('.contenido__info__vehiculos')
+const vehiculos = document.querySelector('.contenido__info__vehiculos')
 
 // Contenido
 
@@ -12,26 +14,31 @@ const contenido = {
         titulo: 'Ferrari',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/horse.jpg',
+        link: '../marcas/ferrari/ferrari.html'
     },
     lamborghini : {
         titulo: 'Lamborghini',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/bull.jpg',
+        link: '../marcas/lamborghini/lamborghini.html'
     },
     mclaren : {
         titulo: 'Mclaren',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/helmet.jpg',
+        link: '../marcas/mclaren/mclaren.html'
     },
     bentley : {
         titulo: 'Bentley',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/bentley.jpg',
+        link: '../marcas/bentley/bentley.html'
     },
     rr : {
         titulo: 'Rolls Royce',
         mensaje: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in faucibus sagittis nunc, vestibulum, aliquet viverra leo nunc. Justo, sit libero non in non, id. Massa, id cras nulla viverra. Dui dignissim commodo at elementum, platea rhoncus et.',
         imagen: '../static/imgs/marcas/ecstacy.jpg',
+        link: '../marcas/rolls-royce/rolls-royce.html'
     }
 }
 
@@ -54,6 +61,8 @@ function asignarContenido(llave){
     imagen.setAttribute('src', informacion.imagen)
     imagen.classList.remove(imagen.classList[1])
     imagen.classList.add(informacion.claseImagen)
+    vehiculos.classList.add('contenido__info__vehiculos--visible')
+    link.setAttribute('href', informacion.link)
 }
 
 
