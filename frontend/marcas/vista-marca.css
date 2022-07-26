@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .navegacion{
     background-color: black;
 }
@@ -62,11 +66,6 @@
     color: #828282;
 }
 
-.encabezado__logo{
-    height: 50px;
-    width: 100px;
-}
-
 .autos{
     width: 100vw;
     display: flex;
@@ -78,6 +77,7 @@
 .autos__auto__img{
     height: 170px;
     width: 350px;
+    cursor: pointer;
 }
 
 .autos__auto__titulo{
