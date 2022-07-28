@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Utilizar mismas ojas de estilos -->
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./usados.css">
+    <!-- Utilizar mismo CDN para fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Cambiar Titulo A Marca Electa -->
+    <title>Usados</title>
+</head>
+<body>
+
+    <!-- Utilizar mismo menu de navegacion -->
+    <!-- Navegacion -->
+    <div class="navegacion">
+      <!-- Logo Navegacion -->
+      <div class="navegacion__logo" onclick="window.location.href='../../index/index.html'">
+        <span class="iconify" data-icon="icon-park-solid:diamond-ring" style="color: white;" data-width="30" data-height="30"></span>
+        <p>FAEL Automotriz</p>
+      </div>
+      <!-- Menu Navegacion -->
+      <div class="navegacion__menu">
+        <!-- Botones del Menu -->
+        <a class="navegacion__menu__boton" href="../marcas/marcas.html">Marcas</a>
+        <a class="navegacion__menu__boton" href="../nosotros/nosotros.html">Nosotros</a>
+        <a class="navegacion__menu__boton" href="../usados/usados.html">Usados</a>
+        <a class="navegacion__menu__boton" href="../cotizaciones/cotizaciones.html">Cotizaciones</a>
+        <a class="navegacion__menu__boton">Mi Perfil</a>
+      </div>
+    </div>
+
+    <!-- Crear Banner, y asignar imagen para la marca seleccionada -->
+    <!-- Utilizar titulo de preferencia -->
+    <!-- Escribir un mensaje de preferencia -->
+    <div class="banner">
+        <!-- Imagen -->
+        <img src="../static/imgs/usados/presentacion/usados-banner.jpg" alt="" class="banner__fondo">
+        <!-- Titulo -->
+        <p class="banner__titulo">Vehiculos Certificados Usados</p>
+        <!-- Mensaje -->
+        <p class="banner__mensaje">Tenemos una gran variedad de vehiculos usados y certificados de Alta Gama, todos reciben una inspeccion granular, en lo que se refiere mecanicamente y estaticamente, puedes verlos en nuestras concesionarias y hacer test de manejo sin compromiso alguno presentando la documentacion requerida.</p>
+        <div class="banner__gradiente"></div>
+    </div>
+
+    <!-- Cambiar logo al de la marca seleccionada -->
+    <div class="encabezado">
+        <h3 class="encabezado__titulo">Vehiculos Certificados</h3>
+    </div>
+
+    <!-- Asignar Tres de los carros de la marca seleccion y asignar especificaciones de preferencia -->
+    <!-- Asignar Imagen -->
+    <!-- Asignar Modelo -->
+    <!-- Asignar Precio -->
+    <!-- Asignar Especificaciones -->
+    <!-- Asignar Unidades Disponibles -->
+    <div class="autos">
+
+        <!-- Carro #1 -->
+        <div class="autos__auto bugatti">
+            <!-- Imagen -->
+            <img src="../static/imgs/usados/presentacion/bugatti/bugatti1.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Bugatti Chiron</p>
+                <p class="autos__auto__titulo__precio">$2,500,000</p>
+            </div>
+        </div>
+
+        <!-- Carro #2 -->
+        <div class="autos__auto ferrari">
+            <!-- Imagen -->
+            <img src="../static/imgs/usados/presentacion/ferrari/ferrari1.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Ferrari F12 Berlinetta</p>
+                <p class="autos__auto__titulo__precio">$400,000</p>
+            </div>
+        </div>
+
+        <!-- Carro #3 -->
+        <div class="autos__auto ford">
+            <!-- Imagen -->
+            <img src="../static/imgs/usados/presentacion/ford/ford1.png" alt="" class="autos__auto__img">
+            <!-- Modelo y Precio -->
+            <div class="autos__auto__titulo">
+                <p class="autos__auto__titulo__modelo">Ford Mustang Mach 1</p>
+                <p class="autos__auto__titulo__precio">$63,000</p>
+            </div>
+        </div>
+
+        </div>
+
+    <!-- Agregar modal en este mismo formato -->
+    <!-- Solo copiar y pegar la modal -->
+    <!-- No agregar texto, imagenes o videos, ya que seran agregados programaticamente -->
+    <div class="modal">
+        <div class="modal__contenido">
+            <img src="" alt="" class="modal__contenido__img">
+            <div class="modal__info">
+                <h3 class="modal__info__modelo"></h3>
+                <h3 class="modal__info__precio"></h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Agregar Script de Iconify y vista-marca.js -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="usados.js"></script>
+
+</body>
+</html>
