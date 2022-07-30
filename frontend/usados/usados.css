@@ -1,13 +1,12 @@
-body{
-    overflow-x: hidden;
-}
-
 .navegacion{
+    position: static;
     background-color: black;
+    z-index: 0;
 }
 
-.footer{
-    position: static;
+.navegacion__menu__boton:nth-child(3){
+    background-color: #FFFFFF;
+    color: #848484;
 }
 
 .banner{
@@ -57,6 +56,7 @@ body{
 }
 
 .encabezado{
+    margin-left: 10px;
     box-sizing: content-box;
     padding-left: 10px;
     display: flex;
@@ -75,8 +75,9 @@ body{
 }
 
 .autos__auto__img{
-    height: 170px;
+    height: 200px;
     width: 350px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -110,85 +111,40 @@ body{
     font-size: 14px;
 }
 
-.modal__contenido{
-    display: grid;
-    grid-template-columns: 49.5% 49.5%;
-    grid-gap: 1%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 600px;
-    background-color: #FFFFFF;
-}
-
-.modal__vis__video{
-    object-fit: cover;
-    width: 100%;
-    height: 600px;
-}
-
-.modal__contenido__info{
-    padding: 20px;
-    color: #828282;
-}
-
-.modal__contenido__info__mensaje{
-    font-weight: 300;
-    text-align: justify;
-    line-height: 30px;
-}
-
-.modal__contenido__info__titulo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.modal__contenido__info__titulo__logo{
-    height: 50px;
-    width: 100px;
-}
-
-.modal__contenido__info__precio{
-    text-align: center;
-}
-
-.modal__contenido__info__controlador{
-    float: right;
-}
-
-.modal__contenido__info__controlador__boton{
-    margin-top: 20px;
-    height: 40px;
-    width: 170px;
-    background-color: transparent;
-    border: 2px solid #828282;
-    border-radius: 5px;
-    color: #828282;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.modal__contenido__info__controlador__boton:hover{
-    background-color: #828282;
-    color: #FFFFFF;
-    transition: all 0.5s;
-}
-
 .modal{
     position: absolute;
     height: 100vh;
     width: 100vw;
-    top: 0px;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     z-index: 2;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.5s, visibility 0s 1s;
+}
+
+.modal__contenido{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.modal__contenido__img{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.modal__info{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .modal--activa{
